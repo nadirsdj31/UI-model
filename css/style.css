@@ -1,0 +1,122 @@
+:root {
+    --accent: #50d5b7;
+    --accent-dark:#15ac90;
+    --bg: #f5f5f3;
+    --fb: #5470b9;
+    --twitter: #38a4ed;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg);
+    height: 100vh;
+  }
+  
+  .container {
+    margin: auto;
+    padding: 0 2.5rem;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 2rem;
+    font-size: 1.6em;
+  }
+  
+  form {
+    margin: 3rem 0;
+  }
+  
+  input {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    margin-top: 0.7rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  input:hover{
+      box-shadow:none;
+  }
+  
+  .password {
+    position: relative;
+  }
+  
+  .forgot {
+    position: absolute;
+    color: var(--accent-dark);
+    font-size: 0.7em;
+    font-weight: 500;
+    top: 49%;
+    right: 0;
+    margin-right: 1rem;
+  }
+  
+  input[type="submit"] {
+    background-image: linear-gradient(90deg, var(--accent), var(--accent-dark));
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+  }
+  
+  .or {
+    font-size: 0.7em;
+    color: rgb(116, 116, 116);
+  }
+  
+  .socials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+  
+  .fb,
+  .twitter {
+    background-color: #5470b9;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.7em;
+    padding: 0.6rem;
+    width: 120px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+  }
+  
+  .twitter {
+    background-color: #38a4ed;
+  }
+  
+  i {
+    padding-left: 0.7rem;
+    margin-right: 0.4rem;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  
+  .sign-up {
+    color: rgb(116, 116, 116);
+    font-size: 0.8em;
+  }
+  
+  .sign-up a {
+    color: #5470b9;
+  }
+  
+  
