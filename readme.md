@@ -1,6 +1,6 @@
 # UI model
 Little template for you 
-file :
+file : https://nadirsdj31.github.io/UI-model/
 ## screenshots 
 ![alt text](https://user-images.githubusercontent.com/58395073/106145803-3fd6a980-6176-11eb-8fde-ce762382ab99.PNG)
 
